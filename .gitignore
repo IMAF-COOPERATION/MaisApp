@@ -1,0 +1,42 @@
+# === Environnement virtuel Python ===
+env/
+venv/
+.venv/
+
+# === Fichiers compilés Python ===
+*.pyc
+*.pyo
+__pycache__/
+
+# === Base de données locale (à ignorer si version dev seulement) ===
+db.sqlite3
+
+# === Clés secrètes et configs privées ===
+.env
+
+# === Logs et rapports divers ===
+*.log
+
+# === Répertoires Django ===
+staticfiles/
+media/
+
+# === Cache, historique, et systèmes temporaires ===
+*.sqlite3
+.DS_Store
+Thumbs.db
+
+# === VSCode config (ou autre IDE) ===
+.vscode/
+.idea/
+*.swp
+
+# === Fichiers de test ou de build ===
+coverage/
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# === Node.js (si tu fais un frontend React à côté) ===
+node_modules/
