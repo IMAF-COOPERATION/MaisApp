@@ -7,7 +7,7 @@ class CustomUser(AbstractUser):
     photo = models.ImageField(upload_to='profils/', blank=True, null=True)
 
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['username']  # tu peux aussi mettre [] si tu veux utiliser uniquement email
+    REQUIRED_FIELDS = ['username']
 
     def __str__(self):
         return self.email
